@@ -6,13 +6,8 @@ using System.Threading.Tasks;
 
 namespace GerenciadorEscolar
 {
-    class Program
+    class Subject
     {
-        static void Main(string[] args)
-        {
-            SchoolApp school = new SchoolApp();
-
-            school.run();
-        }
+        public string subjectName { get; set; }
     }
 }
